@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Issuer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="Lattice Labs Verifiable Credential">
+    <meta name="author" content="WrapTheme, www.thememakker.com">
+
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <!-- VENDOR CSS -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/vendor/font-awesome/css/font-awesome.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/color_skins.css">
+</head>
+
+<body class="theme-orange">
+
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30"><img src="../assets/images/user.png" width="48" height="48" alt="Lattice Labs">
+            </div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+
+    <div id="wrapper">
+
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+
+                <div class="navbar-left">
+                    <div class="navbar-btn">
+                        <a href="../dashboard.html"><img src="../assets/images/user.png" alt="Lattice Labs Logo"
+                                class="img-fluid logo"></a>
+                        <button type="button" class="btn-toggle-offcanvas"><i
+                                class="lnr lnr-menu fa fa-bars"></i></button>
+                    </div>
+                    <a href="javascript:void(0);" class="icon-menu btn-toggle-fullwidth"><i
+                            class="fa fa-arrow-left"></i></a>
+                </div>
+
+                <div class="navbar-right">
+
+                    <div id="navbar-menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html" class="icon-menu"><i class="icon-power"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="left-sidebar" class="sidebar">
+            <div class="navbar-brand">
+                <a href="dashboard.html"><img src="../assets/images/user.png" alt="Lattice Labs Logo"
+                        class="img-fluid logo"><span>Lattice Labs</span></a>
+                <button type="button" class="btn-toggle-offcanvas btn btn-sm btn-default float-right"><i
+                        class="lnr lnr-menu fa fa-chevron-circle-left"></i></button>
+            </div>
+            <div class="sidebar-scroll">
+                <div class="user-account">
+                    <div class="user_div">
+                        <img src="../assets/images/user.png" class="user-photo" alt="User Profile Picture">
+                    </div>
+                    <div class="dropdown">
+                        <span>Welcome,</span>
+                        <a href="javascript:void(0);" class="user-name"><strong>Issuer</strong></a>
+                    </div>
+                </div>
+                <nav id="left-sidebar-nav" class="sidebar-nav">
+                    <ul id="main-menu" class="metismenu">
+                        <li><a href="../dashboard.html"><i class="icon-home"></i><span>Dashboard</span></a></li>
+                        <li class="active">
+                            <a href="#connections" class="has-arrow"><i
+                                    class="icon-diamond"></i><span>Connections</span></a>
+                            <ul>
+                                <li><a href="active.html">Active</a></li>
+                                <li class="active"><a href="pending.html">Pending</a></li>
+                                <li><a href="new.html">New</a></li>
+                                <li><a href="accept.html">Accept</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../schema.html"><i class="icon-list"></i><span>Credential
+                                    Schemas</span></a>
+                        </li>
+                        <li><a href="../definition.html"><i class="icon-calendar"></i><span>Credential
+                                    Definitions</span></a></li>
+                        <li><a href="#credential" class="has-arrow"><i
+                                    class="icon-list"></i><span>Credentials</span></a>
+                            <ul>
+                                <li><a href="../academic.html">Academic</a></li>
+                                <li><a href="../license.html">Driving License</a></li>
+                                <li><a href="../membership.html">Memberships</a></li>
+                                <li><a href="../credential.html">Free Format</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div id="main-content">
+            <div class="block-header">
+                <div class="row clearfix">
+                    <div class="col-md-6 col-sm-12">
+                        <h2>Pending Connections</h2>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-right">
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="dashboard.html"><i class="icon-home"></i></a></li>
+                            <li class="breadcrumb-item">Connections</li>
+                            <li class="breadcrumb-item active">Pending</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row clearfix" id="pending-connections">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Javascript -->
+    <script src="../assets/bundles/libscripts.bundle.js"></script>
+    <script src="../assets/bundles/vendorscripts.bundle.js"></script>
+
+    <script src="../assets/bundles/mainscripts.bundle.js"></script>
+    <script src="../assets/js/constant.js"></script>
+    <script src="../assets/js/connections/active.js"></script>
+</body>
+
+</html>

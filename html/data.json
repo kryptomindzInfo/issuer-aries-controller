@@ -1,0 +1,14 @@
+{
+  "ACADEMIC": {
+    "schema": "FeKJXfbPNzMZ8SVST3gzYS:2:academic:1.0",
+    "definition": "FeKJXfbPNzMZ8SVST3gzYS:3:CL:224647:lattice degree"
+  },
+  "LICENSE": {
+    "schema": "FeKJXfbPNzMZ8SVST3gzYS:2:driving license:1.0",
+    "definition": "FeKJXfbPNzMZ8SVST3gzYS:3:CL:224648:lattice driving license"
+  },
+  "MEMBERSHIP": {
+    "schema": "FeKJXfbPNzMZ8SVST3gzYS:2:membership card:1.0",
+    "definition": "FeKJXfbPNzMZ8SVST3gzYS:3:CL:224649:lattice membership card"
+  }
+}
